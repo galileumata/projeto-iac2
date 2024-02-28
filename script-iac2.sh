@@ -4,7 +4,7 @@ echo "Realizando UPDATE no servidor..."
 
 apt-get update
 
-echo "UPDATE realizado!! :D"
+echo "UPDATE realizado!"
 echo "Realizando UPGRADE no servidor..."
 
 apt-get upgrade -y
@@ -14,12 +14,12 @@ echo "Baixando Servidor Web APACHE2..."
 
 apt-get install apache2 -y
 
-echo "Instalado!! :D"
+echo "Instalado!"
 echo "Instalando aplicativo unzip..."
 
 apt-get install unzip -y
 
-echo "Instalado!! :D"
+echo "Instalado!"
 echo "Realizando a instalação e configuração do aplicação web..."
 
 cd /tmp
@@ -28,4 +28,4 @@ unzip main.zip
 cd linux-site-dio-main
 cp -R * /var/www/html/
 
-echo "Pronto!! :D"
+echo "Pronto!"
